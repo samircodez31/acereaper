@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  /* White */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.portfolio-card {
+  background-color: #f39c12;
+  /* Bright Orange */
+  color: #ffffff;
+  /* White text on orange background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto;
+}
+
+.name {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: black;
+}
+
+.description {
+  color: #f0f0f0;
+
+  opacity: 0.8;
+  /* Reduced opacity for a subtle effect */
+}
+
+.projects,
+.achievements {
+  background-color: #e67e22;
+  /* Darker Orange */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.projects h3,
+.achievements h3 {
+  color: #ffffff;
+  /* White text */
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.projects ul,
+.achievements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects ul li,
+.achievements ul li {
+  margin-bottom: 10px;
+}
+
+.projects a,
+.achievements li {
+  color: #ffffff;
+  /* White text */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.projects a:hover,
+.achievements li:hover {
+  color: #dddddd;
+  /* Lighter text on hover */
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #ffffff;
+  /* White text */
+  font-size: 1.5em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #dddddd;
+  /* Lighter text on hover */
+}
